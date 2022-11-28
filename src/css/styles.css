@@ -44,7 +44,11 @@
   margin: 0 auto;
   padding: 10px;
   border-radius: 7px;
-  border: 1px solid grey;
+  border: 1px solid var(--border);
+  background-image:linear-gradient(var(--background));
+}
+::placeholder {
+  color:var(--placeholder);
 }
 
 .container header #btn-search {
@@ -54,13 +58,13 @@
   padding: 10px;
   border-radius: 7px;
   cursor: pointer;
-  border: 1px solid grey;
+  border: 1px solid var(--border);
 }
 
 .container header #btn-search:hover {
-  background-color: hotpink;
-  color: #ffffff;
-  border-color: #ffffff;
+  background-color: var(--hover);
+  color: var(--branca);
+  border-color:var(--branca);
 }
 
 .container .profile-data {
@@ -84,7 +88,10 @@
 .container .profile-data .info img {
   width: 50%;
   border-radius: 50%;
-  border: 10px solid hotpink;
+  border: 10px solid transparent;
+  background: linear-gradient(45deg, var(--border-img)) border-box;
+  
+  
 }
 
 .container .profile-data .info h1 {
@@ -99,9 +106,19 @@
   line-height: 23px;
 }
 
-.container .profile-data .seguidores {
-  margin: 0 auto;
-  margin-right: 100px;
+.container .profile-data .seguir {
+  display:flex;
+  justify-content:space-between;
+  width:100%;
+  
+}
+.container .profile-data .seguidores,
+.seguindo {
+  border-radius:25px;
+  border: 10px solid transparent;
+  background: linear-gradient(45deg, var(--border-img)) border-box;
+  color:var(--branca);
+  margin:50px;
 }
 
 /* REPOSITORIES */

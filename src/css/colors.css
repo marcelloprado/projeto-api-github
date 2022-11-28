@@ -1,0 +1,8 @@
+:root {
+    --border: rgb(6, 6, 158);
+    --background:to left, rgba(255,0,0,0), rgb(43, 29, 206);
+    --hover:rgb(142, 142, 228);
+    --branca:#FFF;
+    --placeholder:rgb(20,10,90);
+    --border-img:rgb(75, 39, 233),rgb(7, 7, 106);
+}

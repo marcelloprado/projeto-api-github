@@ -12,14 +12,14 @@ const screen = {
                                                 </p>
                                             </div>
                                             </div>
-                                            <div class="seguidores">
-                                                <p>
+                                            <div class="seguir">
+                                                <p class="seguidores">
                                                 👥Seguidores: ${user.followers}
                                                 </p>
-                                                <p>
+                                                <p class="seguindo">
                                                 👥Seguindo: ${user.following}
                                                 </p>
-                                            </div>`
+                                            </divcl>`
 
         if (user.repositories.length > 0) {
             let repositoriesItem = ''
