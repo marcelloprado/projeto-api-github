@@ -1,13 +1,13 @@
 :root {
     --border: rgb(6, 6, 158);
-    --background-input:to left, rgba(255,0,0,0), rgb(43, 29, 206);
-    --background-form:rgb(46, 11, 141);
-    --background-events:rgb(224, 223, 223);
-    --hover:rgb(142, 142, 228);
-    --white:#FFF;
-    --preto:#000;
-    --placeholder:rgb(20,10,90);
-    --border-img:rgb(75, 39, 233),rgb(7, 7, 106);
-    --border-form:rgb(128, 128, 128);
-    --erro-commits:rgb(255, 0, 0);
+    --background-input: to left, rgba(255, 0, 0, 0), rgb(43, 29, 206);
+    --background-form: rgb(46, 11, 141);
+    --background-events: rgb(224, 223, 223);
+    --hover: rgb(142, 142, 228);
+    --white: #FFF;
+    --preto: #000;
+    --placeholder: rgb(20, 10, 90);
+    --border-img: rgb(75, 39, 233), rgb(7, 7, 106);
+    --border-form: rgb(128, 128, 128);
+    --erro-commits: rgb(255, 0, 0);
 }

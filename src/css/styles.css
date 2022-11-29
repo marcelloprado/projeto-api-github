@@ -45,10 +45,11 @@
   padding: 10px;
   border-radius: 7px;
   border: 1px solid var(--border);
-  background-image:linear-gradient(var(--background-input));
+  background-image: linear-gradient(var(--background-input));
 }
+
 ::placeholder {
-  color:var(--placeholder);
+  color: var(--placeholder);
 }
 
 .container header #btn-search {
@@ -64,7 +65,7 @@
 .container header #btn-search:hover {
   background-color: var(--hover);
   color: var(--white);
-  border-color:var(--white);
+  border-color: var(--white);
 }
 
 .container .profile-data {
@@ -90,8 +91,8 @@
   border-radius: 50%;
   border: 10px solid transparent;
   background: linear-gradient(45deg, var(--border-img)) border-box;
-  
-  
+
+
 }
 
 .container .profile-data .info h1 {
@@ -107,18 +108,19 @@
 }
 
 .container .profile-data .seguir {
-  display:flex;
-  justify-content:space-between;
-  width:100%;
-  
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
 }
+
 .container .profile-data .seguidores,
 .seguindo {
-  border-radius:25px;
+  border-radius: 25px;
   border: 10px solid transparent;
   background: linear-gradient(45deg, var(--border-img)) border-box;
-  color:var(--white);
-  margin:50px;
+  color: var(--white);
+  margin: 50px;
 }
 
 /* REPOSITORIES */
@@ -130,7 +132,7 @@
 .container .profile-data .repositories h2 {
   margin-bottom: 30px;
   text-align: center;
-  
+
 }
 
 .container .profile-data .repositories ul {
@@ -160,7 +162,7 @@
   margin: 2px;
   padding: 5px;
   color: var(--white);
-  
+
 }
 
 /* eventos */
@@ -172,9 +174,11 @@
   font-size: 15px;
   line-height: 25px;
 }
+
 .events h3 {
   font-weight: 700;
 }
+
 .fontes {
   font-weight: 700;
 }
@@ -201,7 +205,7 @@
 }
 
 footer {
- color:rgb(112, 103, 103)
+  color: rgb(112, 103, 103)
 }
 
 @media (max-width: 768px) {
