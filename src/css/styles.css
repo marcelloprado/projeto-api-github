@@ -3,7 +3,7 @@
 .devicon-github-original {
   font-size: 60px;
   margin-bottom: 30px;
-  color: #FFFFFF;
+  color: var(--white);
 }
 
 .section {
@@ -16,7 +16,7 @@
   max-width: 960px;
   /* quando chegar em 980px para de aumentar */
   box-shadow: rgba(0, 0, 0, 0.3) 0px 25px 50px -12px;
-  background-color: #fff;
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -45,7 +45,7 @@
   padding: 10px;
   border-radius: 7px;
   border: 1px solid var(--border);
-  background-image:linear-gradient(var(--background));
+  background-image:linear-gradient(var(--background-input));
 }
 ::placeholder {
   color:var(--placeholder);
@@ -63,8 +63,8 @@
 
 .container header #btn-search:hover {
   background-color: var(--hover);
-  color: var(--branca);
-  border-color:var(--branca);
+  color: var(--white);
+  border-color:var(--white);
 }
 
 .container .profile-data {
@@ -117,7 +117,7 @@
   border-radius:25px;
   border: 10px solid transparent;
   background: linear-gradient(45deg, var(--border-img)) border-box;
-  color:var(--branca);
+  color:var(--white);
   margin:50px;
 }
 
@@ -130,6 +130,7 @@
 .container .profile-data .repositories h2 {
   margin-bottom: 30px;
   text-align: center;
+  
 }
 
 .container .profile-data .repositories ul {
@@ -140,47 +141,46 @@
 
 .container .profile-data .repositories ul li a {
   padding: 20px;
-  border: 1px solid grey;
+  border: 1px solid var(--border-form);
   margin: 20px;
   display: block;
   border-radius: 7px;
   transition: 0.3s ease-in-out;
+  font-weight: 700;
 }
 
 .container .profile-data .repositories ul li a:hover {
-  background-color: hotpink;
-  color: #fff
-}
-
-.container .profile-data.hide {
-  display: none;
-
+  background-color: var(--hover);
+  color: var(--white)
 }
 
 .list.repo {
-  background-color: #7961bb;
+  background-color: var(--background-form);
   border-radius: 5px;
   margin: 2px;
   padding: 5px;
-  color: #FFF;
+  color: var(--white);
+  
 }
 
 /* eventos */
 
 .events {
-  background-color: #E0DFDF;
+  background-color: var(--background-events);
   border-radius: 14px;
   padding: 30px;
   font-size: 15px;
   line-height: 25px;
 }
-
+.events h3 {
+  font-weight: 700;
+}
 .fontes {
   font-weight: 700;
 }
 
 .erro-commits {
-  color: red;
+  color: var(--erro-commits);
 }
 
 @media (max-width: 1280px) {
@@ -198,6 +198,10 @@
     font-size: 24px;
     text-align: center;
   }
+}
+
+footer {
+ color:rgb(112, 103, 103)
 }
 
 @media (max-width: 768px) {
