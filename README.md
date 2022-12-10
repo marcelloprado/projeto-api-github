@@ -2,11 +2,18 @@
 
 # projeto-fetch-github-api
 
-Desavio do curso DevQuest, consumindo uma API de busca de usuários.
+Desavio do curso @DevQuest, consumindo uma API de busca de usuários do GitHub.
 ### Desenvolvido com :
 - HTML 
 - CSS 
 - JavaScript puro
+
+## Modo de usar
+- [x] clique no link do projeto
+- https://marcelloprado.github.io/projeto-api-github/
+- [x] Digite seu nome de usuário do GitHub
+- [x] Precione ENTER ou clique em buscar
+- [x] Busca os últimos 10 repositórios, eventos e commits
 
 ### Front end
 <div style="display: inline_block"><br>
