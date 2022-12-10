@@ -24,7 +24,11 @@ Desavio do curso DevQuest, consumindo uma API de busca de usuários do GitHub.
 
 ## Autor
 
-Marcello Prado Muller
+- Marcello Prado Muller
 
+<img src="https://user-images.githubusercontent.com/93588409/206851051-9a242bbb-37af-41b7-9d75-342da9f06fbd.jpeg" width=115><br>
 https://www.linkedin.com/in/marcello-prado-7088ab128/
+
+
+
 
