@@ -8,7 +8,7 @@ Desavio do curso DevQuest, consumindo uma API de busca de usuários do GitHub.
 - CSS 
 - JavaScript puro
 
-## Modo de usar
+## Modo de usar 🛠️
 - [x] clique no link do projeto
 - https://marcelloprado.github.io/projeto-api-github/
 - [x] Digite seu nome de usuário do GitHub
