@@ -6,7 +6,8 @@ Desavio do curso DevQuest, consumindo uma API de busca de usuários do GitHub.
 ### Desenvolvido com :
 - HTML 
 - CSS 
-- JavaScript puro
+- JavaScript
+- Consumo de API
 
 ## Modo de usar 🛠️
 - [x] clique no link do projeto
